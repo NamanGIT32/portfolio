@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
+  background-color:powderblue;
+}
+
+/* Navigation bar */
+
+.navi {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10%;
+  width: 40%;
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.navi a {
+  text-decoration: none;
+  color: #010109;
+  font-weight: bold;
+}
+/* --------------------- */
+/* --------- */
+.page1 {
+  width: 80%;
+  display: flex;
+  margin:auto;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+}
+
+.page1img {
+  height: 60vh;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+}
+
+.namewala {
+  font-size: 3vw;
+  display: flex;
+  padding-left: 8.8vw;
+}
+
+.bio {
+  font-size: 1.1vw;
+}
+
+/* --------------------- */
+
+.page {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.heading {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 2rem;
+  color: #0a3979;
+}
+
+.page2 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section1 {
+  margin-top: 3%;
+  margin-left: 6%;
+  padding: 1%;
+  width: 44%;
+  background-color: white;
+  text-align: right;
+  border-radius: 20px;
+}
+
+.section2 {
+  margin-top: 3%;
+  margin-left: 55%;
+  padding: 1%;
+  width: 40%;
+  background-color: white;
+  text-align: left;
+  border-radius: 20px;
+}
+
+
+.ch {
+  font-size: 2rem;
+}
+
+.ch2 {
+  font-size: 2.4rem;
+}
+
+hr {
+  margin-top: 4%;
+  border: 10px dotted grey;
+  width: 4%;
+  margin-left: 48%;
+  border-bottom: none;
+}
+
+.page3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page3img {
+  width: 35%;
+}
+
+.page3sec2 {
+  width: 50%;
+  height: 40%;
+
+}
+
+.h1 {
+  padding-bottom: 20px;
+}
+
+li {
+  line-height: 22px;
+}
