@@ -11,6 +11,24 @@ body {
   background-color:powderblue;
 }
 
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 /* Navigation bar */
 
 .navi {
@@ -145,4 +163,27 @@ hr {
 
 li {
   line-height: 22px;
+}
+
+.page4 {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.likhahua {
+  text-align: center;
+}
+
+.logos {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logosimg {
+  width: 60px;
 }
